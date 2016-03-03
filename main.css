@@ -1,0 +1,7 @@
+@import "heading.css";
+@import "mainBody.css";
+@import "footer.css";
+
+body {
+    background-color: #d0e4fe;
+}
