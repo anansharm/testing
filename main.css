@@ -1,7 +1,12 @@
-@import "heading.css";
+@import "header.css";
 @import "mainBody.css";
-@import "footer.css";
+@import "main.css";
 
 body {
     background-color: #d0e4fe;
+}
+div{
+	border: 2px solid blue;
+	
+	transform: translate(200px, 200px,200px);
 }
