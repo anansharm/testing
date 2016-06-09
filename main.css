@@ -5,8 +5,10 @@
 body {
     background-color: #d0e4fe;
 }
-div{
-	border: 2px solid blue;
-	
-	transform: translate(200px, 200px,200px);
+
+/*To hide the arrow in the input type number*/
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
 }
