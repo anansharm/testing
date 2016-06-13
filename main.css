@@ -6,6 +6,8 @@ body {
     background-color: #d0e4fe;
 }
 
+
+/*Fizz and Buzz part*/
 /*To hide the arrow in the input type number*/
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
@@ -17,4 +19,23 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .numrow{
 	margin-left: 20px;
+}
+
+/*fun with jQuery part*/
+.change{
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+}
+.red{
+	background-color: red;
+}
+.blue{
+	background-color: blue;
+}
+.green{
+	background-color: green;
+}
+.yellow{
+	background-color: yellow;
 }

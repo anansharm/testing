@@ -37,4 +37,24 @@ document.getElementById('UserInputAmount').onkeypress = function(e) {
 		document.getElementById("demo").innerHTML = fizz(x);
 	    return false;
     }
-}
+};
+
+//Fun with jQuery part
+
+$(document).ready(function(){
+	$('.change').mouseenter(function(){
+		$(this).animate({
+			height: '+=10px'
+		});
+	});
+
+	$('.change').mouseleave(function(){
+		$(this).animate({
+			height: '-=10px'
+		});
+	});
+	$('.change').click(function(){	
+		$(this).toggle(1000)
+	});
+
+});
